@@ -1,17 +1,16 @@
-// src/firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth, GoogleAuthProvider } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyB4HWficTdwjlYpSDZSLxAagMAZUGiV_9M",
-  authDomain: "new-app-1eca2.firebaseapp.com",
-  projectId: "new-app-1eca2",
-  storageBucket: "new-app-1eca2.appspot.com",
-  messagingSenderId: "134085967335",
-  appId: "1:134085967335:web:57a5dd6cae4f08bcbd5142",
-  databaseURL: "https://new-app-1eca2-default-rtdb.firebaseio.com/"
+  apiKey: "YOUR_API_KEY",
+  authDomain: "YOUR_AUTH_DOMAIN",
+  projectId: "YOUR_PROJECT_ID",
+  storageBucket: "YOUR_STORAGE_BUCKET",
+  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
+  appId: "YOUR_APP_ID",
+  databaseURL: "YOUR_DATABASE_URL"
 };
 
 // Initialize Firebase
